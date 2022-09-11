@@ -1,6 +1,8 @@
+from fileinput import filename
 import serial
 import subprocess
 import time
+import os
 
 num_batchs = 0 #chunks of data to be read
 data = []
@@ -13,7 +15,7 @@ data = []
 
 # #getting data from stm
 # while num_batchs!=4:
-#     for i in range(10):
+#     for i in range(25):
 #         line = ser.readline().decode('UTF-8','ignore')
 #         print(line) # COM16
 #         data.append(line)
@@ -23,17 +25,28 @@ data = []
 #         print("\nReading next data batch:\n")
 #     time.sleep(1)
 #     num_batchs+=1
+f = open("lz77_time_excution.txt","w")
 
-print("\nCompressing......")
-subprocess.call("main -c ./data/data.txt")
-print("\n")
-print("\nEncrypting data.....")
-subprocess.call("../fenc/fenc e '!ace' ./encoded/output.lz77 out.txt")
-print("\nDecrypting data.....")
-time.sleep(2)
-subprocess.call("../fenc/fenc d '!ace' out.txt final.txt")
-print("\n\nDecompressing......")
-subprocess.call("main -d final.txt")
+for i in range(1,11):
+    filename = f"./data/data_set{i}.txt"
+    file_stats = os.stat(filename).st_size
+    # print(filename,"\n")
+    # print(file_stats,"\n")
+    start_time = time.time()
+    print("\nCompressing......")
+    subprocess.call(f"main -c {filename}")
+    print("\n")
+    print("\nEncrypting data.....")
+    subprocess.call("../Encrypt_Decrypt/fenc e '!ace' ./encoded/output.lz77 out.txt")
+    time.sleep(2)
+    print("\nDecrypting data.....")
+    subprocess.call("../Encrypt_Decrypt/fenc d '!ace' out.txt final.txt")
+    print("\n\nDecompressing......")
+    subprocess.call("main -d final.txt")
+    print("\n")
+    time_exe = (time.time() - start_time)
+    f.write(f"{file_stats}, {time_exe}\n")
+    print("\n---Project Time Execution: %s seconds ---" % (time_exe))
 print("\nProcess completed!")
 
 

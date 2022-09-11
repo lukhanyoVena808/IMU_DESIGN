@@ -1,6 +1,7 @@
 import serial
 import subprocess
 import time
+import os
 
 num_batchs = 0 #chunks of data to be read
 data = []
@@ -24,16 +25,24 @@ data = []
 #     time.sleep(1)
 #     num_batchs+=1
 
-# print("\nCompressing......")
-# subprocess.call("huffman -e ./data/data.txt ./encoded/encoded.txt")
-# print("\n")
-# print("\nEncrypting data.....")
-# subprocess.call("../fenc/fenc e '!ace' ./encoded/encoded.txt out.txt")
-# print("\nDecrypting data.....")
-# time.sleep(2)
-# subprocess.call("../fenc/fenc d '!ace' out.txt final.txt")
-print("\n\nDecompressing......")
-subprocess.call("huffman -d final.txt ./output/now.txt")
+f = open("huffman_time_excution.txt","w")
+
+for i in range(1,11):
+    filename = f"./data/data_set{i}.txt"
+    file_stats = os.stat(filename).st_size
+    start_time = time.time()
+    print("\nCompressing......")
+    subprocess.call("huffman -e ./data/data.txt ./encoded/encoded.txt")
+    print("\n")
+    print("\nEncrypting data.....")
+    subprocess.call("../Encrypt_Decrypt/fenc e '!ace' ./encoded/encoded.txt out.txt")
+    time.sleep(2)
+    print("\nDecrypting data.....")
+    subprocess.call("../Encrypt_Decrypt/fenc d '!ace' out.txt final.txt")
+    print("\n\nDecompressing......")
+    subprocess.call("huffman -d final.txt ./output/now.txt")
+    print("\n")
+    print("\n---Project Time Execution: %s seconds ---" % (time.time() - start_time))
 print("\nProcess completed!")
 
 
