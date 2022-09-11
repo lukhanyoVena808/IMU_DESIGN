@@ -221,7 +221,7 @@ int decompress(char* inputPath) {
 
     // Open I/O files
     fileInput = fopen(inputPath, "rb");
-    fileOutput = fopen("output/out_put.txt", "wb");
+    fileOutput = fopen("output/final.txt", "wb");
 
     if (!fileInput) {
         fprintf(stderr, "Unable to open fileInput %s", "output.lz77");

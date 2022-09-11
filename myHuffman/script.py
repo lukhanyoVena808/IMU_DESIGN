@@ -32,17 +32,21 @@ for i in range(1,11):
     file_stats = os.stat(filename).st_size
     start_time = time.time()
     print("\nCompressing......")
-    subprocess.call("huffman -e ./data/data.txt ./encoded/encoded.txt")
+    subprocess.call(f"huffman -e {filename} ./encoded/encoded.txt")
+    compressed = os.stat("./encoded/encoded.txt").st_size
     print("\n")
     print("\nEncrypting data.....")
     subprocess.call("../Encrypt_Decrypt/fenc e '!ace' ./encoded/encoded.txt out.txt")
     time.sleep(2)
     print("\nDecrypting data.....")
-    subprocess.call("../Encrypt_Decrypt/fenc d '!ace' out.txt final.txt")
+    subprocess.call("../Encrypt_Decrypt/fenc d '!ace' out.txt decrypt.txt")
     print("\n\nDecompressing......")
-    subprocess.call("huffman -d final.txt ./output/now.txt")
+    subprocess.call("huffman -d decrypt.txt ./output/final.txt")
     print("\n")
-    print("\n---Project Time Execution: %s seconds ---" % (time.time() - start_time))
+    time_exe = (time.time() - start_time)
+    ratio =(float)(compressed/(file_stats+0.0))*100
+    f.write(f"{file_stats}, {time_exe}, {ratio}\n")
+    print("\n---Project Time Execution: %s seconds ---" % (time_exe))
 print("\nProcess completed!")
 
 
