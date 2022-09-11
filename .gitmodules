@@ -1,6 +1,0 @@
-[submodule "lz77"]
-	path = lz77
-	url = https://github.com/Favrito/LZ77
-[submodule "huffman"]
-	path = huffman
-	url = https://github.com/Bestoa/huffman-codec
