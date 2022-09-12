@@ -5,7 +5,8 @@ import os
 
 num_batchs = 0 #chunks of data to be read
 data = []
-fil = open("./data/data.txt","a")
+filename = "./data/data.txt"
+fil = open(filename,"a")
 ser = serial.Serial()
 ser.timeout = 100
 ser.port = 'COM16'
@@ -26,7 +27,6 @@ while num_batchs!=4:
     num_batchs+=1
 
 
-filename = f"./data/data.txt"
 start_time = time.time()
 print("\nCompressing......")
 subprocess.call(f"huffman -e {filename} ./encoded/encoded.txt")
@@ -38,7 +38,7 @@ time.sleep(2)
 print("\nDecrypting data.....")
 subprocess.call("../Encrypt_Decrypt/fenc d '!ace' out.txt decrypt.txt")
 print("\n\nDecompressing......")
-subprocess.call("huffman -d decrypt.txt ./output/final.txt")
+subprocess.call("huffman -d decrypt.txt ./output/final_out.txt")
 print("\n")
 time_exe = (time.time() - start_time)
 print("\n---Project Time Execution: %s seconds ---" % (time_exe))
