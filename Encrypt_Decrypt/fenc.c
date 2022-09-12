@@ -160,6 +160,7 @@ static uint64_t hosttobig(uint64_t n)
 
 int main(int argc,char **argv)
 {
+	clock_t begin = clock();
 	uint64_t iv,nulliv,cksum,tmpcksum;
 	unsigned char key[32],buf[65536],buf2[65536];
 	FILE *in,*out,*tmp;
@@ -345,5 +346,10 @@ reprompt:
 		fclose(out);
 	else fflush(out);
 
+	    // Print execution time
+    clock_t end = clock();
+    printf("\n\n Encrypt-Decrypt Execution time: ");
+    printf("%f", ((double) (end - begin) / CLOCKS_PER_SEC));
+    printf(" [seconds]");
 	return 0;
 }

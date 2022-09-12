@@ -1,0 +1,270 @@
+
+Compressing......
+Input file size: 777855 bytes
+Output file size: 706128 bytes    
+
+Compression OK
+
+Execution time: 1.640000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.125000 [seconds]
+
+
+---Project Time Execution: 4.114012002944946 seconds ---
+
+Compressing......
+Input file size: 11642 bytes
+Output file size: 10662 bytes
+
+Compression OK
+
+Execution time: 0.047000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.000000 [seconds]
+
+
+---Project Time Execution: 2.666356325149536 seconds ---
+
+Compressing......
+Input file size: 58561 bytes
+Output file size: 53348 bytes
+
+Compression OK
+
+Execution time: 0.156000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.031000 [seconds]
+
+
+---Project Time Execution: 2.5593342781066895 seconds ---
+
+Compressing......
+Input file size: 93723 bytes
+Output file size: 85370 bytes
+
+Compression OK
+
+Execution time: 0.250000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.031000 [seconds]
+
+
+---Project Time Execution: 2.6211957931518555 seconds ---
+
+Compressing......
+Input file size: 152513 bytes
+Output file size: 138639 bytes
+
+Compression OK
+
+Execution time: 0.344000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.047000 [seconds]
+
+
+---Project Time Execution: 2.7847681045532227 seconds ---
+
+Compressing......
+Input file size: 211195 bytes
+Output file size: 192021 bytes
+
+Compression OK
+
+Execution time: 0.483000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.016000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.047000 [seconds]
+
+
+---Project Time Execution: 2.8710508346557617 seconds ---
+
+Compressing......
+Input file size: 269877 bytes
+Output file size: 245403 bytes
+
+Compression OK
+
+Execution time: 0.610000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.016000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.047000 [seconds]
+
+
+---Project Time Execution: 3.040388822555542 seconds ---
+
+Compressing......
+Input file size: 410232 bytes
+Output file size: 372747 bytes
+
+Compression OK
+
+Execution time: 0.875000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.094000 [seconds]
+
+
+---Project Time Execution: 3.3589587211608887 seconds ---
+
+Compressing......
+Input file size: 492506 bytes
+Output file size: 447575 bytes
+
+Compression OK
+
+Execution time: 1.125000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.110000 [seconds]
+
+
+---Project Time Execution: 3.6198740005493164 seconds ---
+
+Compressing......
+Input file size: 971733 bytes
+Output file size: 882648 bytes
+
+Compression OK
+
+Execution time: 2.171000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Decompression OK
+
+Execution time: 0.171000 [seconds]
+
+
+---Project Time Execution: 4.706772565841675 seconds ---

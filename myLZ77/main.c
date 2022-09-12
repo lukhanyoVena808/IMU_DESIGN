@@ -209,7 +209,7 @@ int compress(char* inputPath) {
 
 // This method contains the logic of the inverse algorithm, used to decompress.
 // Is invoked when "-d" option is specified in launch command.
-int decompress(char* inputPath) {
+int decompress(char* inputPath,char* outPath ) {
     FILE *fileInput;
     FILE *fileOutput;
     int shift, offset, match, c_in;
@@ -221,7 +221,7 @@ int decompress(char* inputPath) {
 
     // Open I/O files
     fileInput = fopen(inputPath, "rb");
-    fileOutput = fopen("output/final.txt", "wb");
+    fileOutput = fopen(outPath, "wb");
 
     if (!fileInput) {
         fprintf(stderr, "Unable to open fileInput %s", "output.lz77");
@@ -297,7 +297,7 @@ int main(int argc, char* argv[]) {
     } else {
         // Start decompression
         if (strcmp(argv[1], "-d") == 0) {
-            int result = decompress(argv[2]);
+            int result = decompress(argv[2],argv[3]);
             if (result == 0) {
                 fprintf(stderr, "\nDecompression FAIL");
             } else if (result == 1) {
