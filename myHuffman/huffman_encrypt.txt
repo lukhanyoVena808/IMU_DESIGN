@@ -1,0 +1,231 @@
+Compressing......
+File size = 777855
+Table size = 48   
+
+Execution time: 0.186000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Execution time: 0.125000 [seconds]
+
+
+---Project Time Execution: 2.6682467460632324 seconds ---
+
+Compressing......
+File size = 11642
+Table size = 48
+
+Execution time: 0.015000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+
+Decompressing......
+
+Execution time: 0.000000 [seconds]
+
+
+---Project Time Execution: 2.666548728942871 seconds ---
+
+Compressing......
+File size = 58561
+Table size = 48
+
+Execution time: 0.031000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Execution time: 0.047000 [seconds]
+
+
+---Project Time Execution: 2.436492681503296 seconds ---
+
+Compressing......
+File size = 93723
+Table size = 48
+
+Execution time: 0.063000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Execution time: 0.031000 [seconds]
+
+
+---Project Time Execution: 2.580660820007324 seconds ---
+
+Compressing......
+File size = 152513
+Table size = 48
+
+Execution time: 0.031000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Execution time: 0.031000 [seconds]
+
+
+---Project Time Execution: 2.4486732482910156 seconds ---
+
+Compressing......
+File size = 211195
+Table size = 48
+
+Execution time: 0.063000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Execution time: 0.062000 [seconds]
+
+
+---Project Time Execution: 2.4964263439178467 seconds ---
+
+Compressing......
+File size = 269877
+Table size = 48
+
+Execution time: 0.109000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+
+Decompressing......
+
+Execution time: 0.062000 [seconds]
+
+
+---Project Time Execution: 2.506993055343628 seconds ---
+
+Compressing......
+File size = 410232
+Table size = 48
+
+Execution time: 0.093000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+
+Decompressing......
+
+Execution time: 0.078000 [seconds]
+
+
+---Project Time Execution: 2.5034964084625244 seconds ---
+
+Compressing......
+File size = 492506
+Table size = 48
+
+Execution time: 0.110000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+
+Decompressing......
+
+Execution time: 0.094000 [seconds]
+
+
+---Project Time Execution: 2.6082632541656494 seconds ---
+
+Compressing......
+File size = 971733
+Table size = 48
+
+Execution time: 0.235000 [seconds]
+
+
+Encrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.000000 [seconds]
+Decrypting data.....
+
+
+ Encrypt-Decrypt Execution time: 0.015000 [seconds]
+
+Decompressing......
+
+Execution time: 0.172000 [seconds]
+
+
+---Project Time Execution: 2.7757158279418945 seconds ---
+
+Process completed!

@@ -3,7 +3,7 @@ import time
 import os
 
 # f = open("huffman_time_excution.txt","w")
-for i in (1,3):
+for i in range(1,11):
     filename = f"./data/data_set{i}.txt"
     file_stats = os.stat(filename).st_size
     start_time = time.time()
