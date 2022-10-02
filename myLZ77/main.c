@@ -291,7 +291,7 @@ int decompress(char* inputPath,char* outPath ) {
 // Is invoked on program launch.
 int main(int argc, char* argv[]) {
     clock_t begin = clock();
-
+    char nm[1024] = {"My test string hello,,,"};
     if (argc < 2) {
         printf("Needs 2 arguments: [-c|-d] [file_path]");
     } else {
@@ -306,7 +306,8 @@ int main(int argc, char* argv[]) {
         }
         // Start compression
         else if (strcmp(argv[1], "-c") == 0) {
-            int result = compress(argv[2]);
+            int result = compress(argv[2]);  
+            // int result = compress(nm);  
             if (result == 0) {
                 fprintf(stderr, "\nCompression FAIL\n");
             } else if (result == 1) {
