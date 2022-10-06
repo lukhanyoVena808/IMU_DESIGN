@@ -131,22 +131,29 @@ void decode(stream in, stream out)
 	}
 }
 
-int main()
+int main(int argc, char* argv[])
 {
-	char buf[256];
-	string_stream str_in = { sget, 0,
-		"X:100.01,Y:200,Z:300.801,X:100.01,Y:200,Z:300.801", 0};
-    // printf("Size of input: %d\n",strlen(str_in));
-	string_stream str_out = { sget, sput, buf, 0 };
-	file_stream file = { 0, file_put, stdout };
+	uint8_t wd[sizeof(argc)+900];
 
-	/* encode from str_in to str_out */
-	encode((stream)&str_in, (stream)&str_out);
+	for (int j=1;j<argc;j++){
+		strcat(wd, argv[j]);
 
-    fprintf(stdout, "\nOutput file size: %d bytes\n",(stream)&str_in);
-	fprintf(stdout, "\nOutput file size: %d bytes\n",(stream)&str_out);
-	/* decode from str_out to file (stdout) */
-	decode((stream)&str_out, (stream)&file);
-
-	return 0;
+		if (j!=argc-1){
+			strcat(wd, " ");
+		}
+		// fprintf(stdout, "\nCompressed: %s\n",argv[j]);
+		// string_stream str_out = {sget, sput, argv[j], 0};
+		// file_stream str_out2 = {0, file_put, stdout};
+		// decode((stream)&str_out, (stream)&str_out2);
+		// wd[j] = argv[j];
+	}
+	// strcat(wd, argv[1]);
+	
+	fprintf(stdout, "\nCompressed: %s\n",wd);
+	string_stream str_out = {sget, sput, wd, 0};
+	file_stream str_out2 = {0, file_put, stdout};
+	  /* decode from str_out to file (stdout) */
+	decode((stream)&str_out, (stream)&str_out2);
+	fprintf(stdout, "\nOutput file: %s \n", str_out2.fp);
+	  return 0;
 }
