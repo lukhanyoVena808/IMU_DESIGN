@@ -1,0 +1,7 @@
+../Core/Src/blosclz.c:117:17:get_run	48	static
+../Core/Src/blosclz.c:146:17:get_match	24	static
+../Core/Src/blosclz.c:216:17:get_run_or_match	24	static
+../Core/Src/blosclz.c:318:15:get_cratio	8288	static
+../Core/Src/blosclz.c:422:5:blosclz_compress	65760	static
+../Core/Src/blosclz.c:667:20:wild_copy	40	static
+../Core/Src/blosclz.c:675:5:blosclz_decompress	64	static

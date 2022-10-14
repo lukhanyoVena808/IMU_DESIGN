@@ -1,0 +1,4 @@
+../Core/Src/invMotionSensor.c:36:13:invMSInit	16	static
+../Core/Src/invMotionSensor.c:65:13:invMSAccelRead	24	static
+../Core/Src/invMotionSensor.c:76:13:invMSGyroRead	24	static
+../Core/Src/invMotionSensor.c:87:13:invMSMagRead	24	static

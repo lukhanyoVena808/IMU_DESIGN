@@ -1,0 +1,13 @@
+../Core/Src/lz4x.c:62:5:lz4x_compress_optimal	168	static
+../Core/Src/lz4x.c:274:5:lz4x_compress	120	static
+../Core/Src/lz4x.c:402:5:lz4x_decompress	72	static
+../Core/Src/lz4x.c:467:10:lz4x_encode	48	static
+../Core/Src/lz4x.c:472:10:lz4x_decode	24	static
+../Core/Src/lz4x.c:475:10:lz4x_bounds	16	static
+../Core/Src/pack.c:35:7:arc_nameof	40	static
+../Core/Src/pack.c:41:10:mem_encode	48	static
+../Core/Src/pack.c:46:10:mem_decode	40	static
+../Core/Src/pack.c:50:10:mem_bounds	16	static
+../Core/Src/pack.c:65:10:file_encode	296	static
+../Core/Src/pack.c:167:10:file_decode	120	static
+../Core/Src/_amalgamate.c:12:5:include	400	static

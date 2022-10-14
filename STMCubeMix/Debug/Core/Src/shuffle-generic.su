@@ -1,0 +1,4 @@
+../Core/Inc/shuffle-generic.h:32:13:shuffle_generic_inline	48	static
+../Core/Inc/shuffle-generic.h:61:13:unshuffle_generic_inline	48	static
+../Core/Src/shuffle-generic.c:12:6:blosc_internal_shuffle_generic	32	static
+../Core/Src/shuffle-generic.c:20:6:blosc_internal_unshuffle_generic	32	static

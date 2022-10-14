@@ -1,0 +1,9 @@
+../Core/Src/fastcopy.c:36:30:copy_2_bytes	32	static
+../Core/Src/fastcopy.c:52:30:copy_4_bytes	32	static
+../Core/Src/fastcopy.c:78:30:copy_8_bytes	32	static
+../Core/Src/fastcopy.c:90:30:copy_16_bytes	24	static
+../Core/Src/fastcopy.c:110:30:copy_32_bytes	24	static
+../Core/Src/fastcopy.c:153:30:copy_bytes	24	static
+../Core/Src/fastcopy.c:192:30:chunk_memcpy	40	static
+../Core/Src/fastcopy.c:496:16:fastcopy	24	static
+../Core/Src/fastcopy.c:529:16:copy_match	32	static

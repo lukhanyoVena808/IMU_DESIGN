@@ -1,0 +1,10 @@
+../Core/Src/bitshuffle-generic.c:13:9:blosc_internal_bshuf_trans_byte_elem_remainder	56	static
+../Core/Src/bitshuffle-generic.c:44:9:blosc_internal_bshuf_trans_byte_elem_scal	40	static
+../Core/Src/bitshuffle-generic.c:52:9:blosc_internal_bshuf_trans_bit_byte_remainder	344	static
+../Core/Src/bitshuffle-generic.c:89:16:bshuf_trans_bit_byte_scal	40	static
+../Core/Src/bitshuffle-generic.c:96:9:blosc_internal_bshuf_trans_elem	48	static
+../Core/Src/bitshuffle-generic.c:113:9:blosc_internal_bshuf_trans_bitrow_eight	40	static
+../Core/Src/bitshuffle-generic.c:125:9:blosc_internal_bshuf_trans_bit_elem_scal	32	static
+../Core/Src/bitshuffle-generic.c:144:16:bshuf_trans_byte_bitrow_scal	56	static
+../Core/Src/bitshuffle-generic.c:167:9:blosc_internal_bshuf_shuffle_bit_eightelem_scal	360	static
+../Core/Src/bitshuffle-generic.c:208:9:blosc_internal_bshuf_untrans_bit_elem_scal	32	static
