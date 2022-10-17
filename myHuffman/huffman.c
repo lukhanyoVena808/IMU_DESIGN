@@ -67,8 +67,9 @@ int main(void){
 		char *str = malloc(10);
 		sprintf(str, "dataset%d.txt",i);
 		pt = fopen(str, "r");
-		char buffer[chunks];
-		fread();
+		char buffer[chunks*80];
+		fread(buffer, 80, chunks, pt);
+		printf("%s\n",buffer);
 		chunks = chunks + incr;
 	}
 	return 0;
